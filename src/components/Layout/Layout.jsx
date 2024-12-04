@@ -24,7 +24,7 @@ const Layout = () => {
     const getTokenAndRegister = async () => {
       const res = await getAccessTokenWithPopup({
         authorizationParams: {
-          audience: "http://localhost:8000",
+          audience: `${import.meta.env.VITE_BASE_URL}`,
           scope: "openid profile email",
         },
       });

@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 // import { token } from '../../node_modules/stylis/src/Tokenizer';
 
 export const api = axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: `${import.meta.env.VITE_BASE_URL}/api`,
 });
 
 export const getAllProperties = async () => {
