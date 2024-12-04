@@ -6,7 +6,7 @@ import UploadImage from "../UploadImage/UploadImage";
 import BasicDetails from "../BasicDetails/BasicDetails";
 import Facilities from "../Facilities/Facilities";
 import PropTypes from "prop-types";
-import AddLocation from "../AddLocation/Addlocation";
+import AddLocation from "../AddLocation/AddLocation";
 const AddPropertyModal = ({ opened, setOpened }) => {
   const [active, setActive] = useState(0);
   const { user } = useAuth0();
