@@ -25,7 +25,7 @@ const Hero = () => {
       animate="animate"
       exit="exit"
     >
-      <div className="innerWidth flexCenter hero-container">
+      <div className="paddings innerWidth flexCenter hero-container">
         {/* Left Side */}
         <div className="flexColStart hero-left">
           <div className="hero-title">
