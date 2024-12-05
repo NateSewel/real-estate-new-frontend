@@ -112,6 +112,8 @@
     justify-items: center;
     width: clamp(12rem, 100%, 28rem);
     flex-wrap: nowrap;
+    justify-content: center;
+    padding-right: 1rem;
   }
   .search-bar > input {
     border: none;
