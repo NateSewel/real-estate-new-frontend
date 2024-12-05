@@ -111,9 +111,6 @@
   .search-bar {
     overflow: hidden;
     justify-items: center;
-    text-align: center;
-    align-items: center;
-    box-sizing: content-box;
   }
   .search-bar > input {
     border: none;
