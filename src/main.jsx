@@ -10,9 +10,9 @@ createRoot(document.getElementById("root")).render(
       domain="dev-xi66tbymj4q3w4qc.us.auth0.com"
       clientId="Iokb0kcWikqUcE8SvTGoX6XbRhTuImwy"
       authorizationParams={{
-        redirect_uri: "http://localhost:5173/",
+        redirect_uri: "https://real-estate-new-frontend.onrender.com/",
       }}
-      audience="http://localhost:8000"
+      audience="https://real-estate-new-w4x4.onrender.com"
       scope="openid profile email"
     >
       <App />
