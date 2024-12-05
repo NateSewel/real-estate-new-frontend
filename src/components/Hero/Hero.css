@@ -109,9 +109,9 @@
     font-size: 0.8rem;
   }
   .search-bar {
-    overflow: hidden;
     justify-items: center;
-    width: auto;
+    width: clamp(12rem, 100%, 28rem);
+    flex-wrap: nowrap;
   }
   .search-bar > input {
     border: none;
