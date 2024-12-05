@@ -50,7 +50,7 @@ const Hero = () => {
             </span>
           </div>
           {/* SearchBar */}
-          <SearchBar />
+          <SearchBar className="" />
 
           {/* Counter */}
           <div className="flexCenter stats">
