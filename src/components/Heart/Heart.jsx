@@ -4,7 +4,7 @@ import useAuthCheck from "../../hooks/useAuthCheck";
 import { useMutation } from "react-query";
 import { useAuth0 } from "@auth0/auth0-react";
 import UserDetailContext from "../../context/UserDetailContext";
-import { toFavList } from "../../utils/api";
+import { toFav } from "../../utils/api";
 import { checkFavourites, updateFavourites } from "../../utils/common";
 import PropTypes from "prop-types";
 
@@ -24,7 +24,7 @@ const Heart = ({ id }) => {
   }, [favourites, id]);
 
   const { mutate } = useMutation({
-    mutationFn: () => toFavList(id, user?.email, token),
+    mutationFn: () => toFav(id, user?.email, token),
     onSuccess: () => {
       setUserDetails((prev) => ({
         ...prev,
