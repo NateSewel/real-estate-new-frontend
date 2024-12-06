@@ -32,6 +32,10 @@ export const updateFavourites = (id, favourites = []) => {
 };
 
 export const checkFavourites = (id, favourites = []) => {
+  if (!Array.isArray(favourites)) {
+    console.error("Favourites is not a valid array:", favourites);
+    return "white"; // Return default if favourites is invalid
+  }
   return favourites.includes(id) ? "#fa3e5f" : "white";
 };
 
