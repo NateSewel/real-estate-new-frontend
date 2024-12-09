@@ -12,7 +12,7 @@ createRoot(document.getElementById("root")).render(
       authorizationParams={{
         redirect_uri: "https://real-estate-new-frontend.onrender.com",
       }}
-      audience="http://localhost:8000"
+      audience="https://real-estate-new-w4x4.onrender.com"
       scope="openid profile email"
     >
       <App />
