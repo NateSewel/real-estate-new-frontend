@@ -1,6 +1,7 @@
 import { HiLocationMarker } from "react-icons/hi";
 import "../../index.css";
 import "../../App.css";
+import "../Hero/Hero.css";
 import PropTypes from "prop-types";
 
 const SearchBar = ({ filter, setFilter }) => {
@@ -8,10 +9,11 @@ const SearchBar = ({ filter, setFilter }) => {
     <div className="flexCenter search-bar">
       <HiLocationMarker color="var(--blue)" size={25} />
       <input
-        placeholder="Search by title/city/country.."
+        placeholder="Search by title/city/country"
         type="text"
         value={filter}
         onChange={(e) => setFilter(e.target.value)}
+        className="text-gray-700"
       />
       <button className="button">Search</button>
     </div>

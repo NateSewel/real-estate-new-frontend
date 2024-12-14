@@ -23,8 +23,8 @@ const Header = () => {
 
   // Function for Mobile Menu collapse
   const getMenuStyles = (toggleMenu) => {
-    if (document.documentElement.clientWidth <= 800) {
-      return { right: !toggleMenu && "-100%" };
+    if (document.documentElement.clientWidth <= 768) {
+      return { right: !toggleMenu || "100%" };
     }
   };
 
@@ -37,7 +37,9 @@ const Header = () => {
         </Link>
 
         {/* Collapse Mobile Menu */}
-        <OutsideClickHandler onOutsideClick={() => setToggleMenu(false)}>
+        <OutsideClickHandler
+          onOutsideClick={() => setToggleMenu((prev) => !prev)}
+        >
           <div className="flexCenter h-menu" style={getMenuStyles(toggleMenu)}>
             <NavLink to="/properties">Properties</NavLink>
 
@@ -57,11 +59,11 @@ const Header = () => {
             )}
           </div>
         </OutsideClickHandler>
-        <div
-          className="menu-icon"
-          onClick={() => setToggleMenu((prev) => !prev)}
-        >
-          <BiMenuAltRight size={30} />
+        <div className="menu-icon">
+          <BiMenuAltRight
+            size={30}
+            onClick={() => setToggleMenu((prev) => !prev)}
+          />
         </div>
       </div>
     </section>

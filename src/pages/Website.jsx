@@ -10,6 +10,7 @@ import Testimonial from "../components/Testimonial/Testimonial";
 import Value from "../components/Value/Value";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "../App.css";
 
 const Website = () => {
   return (
