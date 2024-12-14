@@ -5,6 +5,7 @@ import GetStarted from "../components/GetStarted/GetStarted";
 import Hero from "../components/Hero/Hero";
 import Referral from "../components/Referral/Referral";
 import Residencies from "../components/Residencies/Residencies";
+import Team from "../components/Team/Team";
 import Testimonial from "../components/Testimonial/Testimonial";
 import Value from "../components/Value/Value";
 import { ToastContainer } from "react-toastify";
@@ -23,6 +24,7 @@ const Website = () => {
       <Value />
       <Referral />
       <Testimonial />
+      <Team />
       <Contact />
       <Form />
       <GetStarted />

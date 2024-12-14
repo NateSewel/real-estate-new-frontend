@@ -6,3 +6,8 @@
 .c-container > img {
   width: 9rem;
 }
+
+.logo-ticker-image {
+  height: 70px;
+  width: auto;
+}
