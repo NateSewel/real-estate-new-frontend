@@ -24,7 +24,7 @@ const Header = () => {
   // Function for Mobile Menu collapse
   const getMenuStyles = (toggleMenu) => {
     if (document.documentElement.clientWidth <= 768) {
-      return { right: !toggleMenu || "100%" };
+      return { right: toggleMenu || "100%" };
     }
   };
 
