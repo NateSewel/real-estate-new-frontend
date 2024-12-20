@@ -17,7 +17,7 @@ export const getAllProperties = async () => {
     }
     return response.data;
   } catch (error) {
-    toast.error("Something went wrong");
+    toast.error("");
     throw error;
   }
 };
@@ -171,7 +171,7 @@ export const createResidency = async (data, token) => {
     );
     return res.data["Residency"];
   } catch (error) {
-    toast.error("Something went wrong while creating residence");
+    toast.error("Creating residence");
     throw error;
   }
 };

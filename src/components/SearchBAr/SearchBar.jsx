@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 
 const SearchBar = ({ filter, setFilter }) => {
   return (
-    <div className="flexCenter search-bar">
+    <div className="w-full flexCenter search-bar">
       <HiLocationMarker color="var(--blue)" size={25} />
       <input
         placeholder="Search by title/city/country"

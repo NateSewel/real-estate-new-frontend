@@ -30,9 +30,12 @@ const Testimonial = () => {
               />
             </div>
             <blockquote className="text-gray-700 text-sm mb-3">
-              "I was amazed by the competitive interest rates and stable prices
-              they offered. Their professionalism and attention to detail made
-              the entire process seamless. Highly recommend them"
+              "Desmond is very prompt with his communication and started sending
+              me properties for reviews right away. If you're looking for
+              someone to assist you with finding short term rentals, he's your
+              guy! His email scripts are amazing and guaranteed to gain
+              traction. By the end of your order you should certainly have few
+              good properties to work with."
             </blockquote>
             <div className="text-start flex justify-between items-center">
               <div>
@@ -57,9 +60,10 @@ const Testimonial = () => {
               />
             </div>
             <blockquote className="text-gray-700 text-sm mb-3">
-              "I’ve been working with this team for months, and they
-              consistently deliver the best prices on the market. Their
-              transparency and customer-centric approach are truly commendable."
+              "Successfully completed his mission of identifying suitable real
+              estate properties for our business. His professionalism and
+              thorough research provided excellent options for properties.
+              Highly recommended for his expertise and reliability. "
             </blockquote>
             <div className="text-start flex justify-between items-center">
               <div>
@@ -86,10 +90,8 @@ const Testimonial = () => {
               />
             </div>
             <blockquote className="text-gray-700 text-sm mb-3">
-              "They helped me secure a fantastic deal with unbeatable rates.
-              Their market knowledge and dedication to client satisfaction
-              exceeded my expectations. I'll definitely return for future
-              needs."
+              "Seller was very responsive and organized and delivered leads for
+              my Airbnb business. Will definitely be using him again."
             </blockquote>
             <div className="text-start flex justify-between items-center">
               <div>
