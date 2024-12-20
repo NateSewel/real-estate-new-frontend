@@ -25,9 +25,9 @@ const Hero = () => {
       animate="animate"
       exit="exit"
     >
-      <div className="paddings innerWidth flexCenter hero-container">
+      <div className=" innerWidth flex flex-wrap justify-between hero-container">
         {/* Left Side */}
-        <div className="flexColStart hero-left">
+        <div className="p-5 m-5 flexColStart hero-left">
           <div className="hero-title">
             <div className="orange-circle" />
             <motion.h1 variants={letter}>
@@ -35,7 +35,7 @@ const Hero = () => {
               <br />
             </motion.h1>
           </div>
-          <div className="flexColStart hero-des">
+          <div className="items-center flexColStart hero-des">
             <span className="secondaryText">
               We help you uncover profitable opportunities by sourcing the ideal
               properties for you.
@@ -81,7 +81,7 @@ const Hero = () => {
           </div>
         </div>
         {/* Right Side */}
-        <div className=" flexCenter hero-right">
+        <div className="paddings pb-20 pr-5 items-center flexCenter hero-right">
           <motion.div
             initial={{
               x: "7rem",
@@ -97,7 +97,7 @@ const Hero = () => {
             }}
             className="image-container"
           >
-            <img src="./hero-image.png" alt="hero image" />
+            <img className="" src="./hero-image.png" alt="hero image" />
           </motion.div>
         </div>
       </div>

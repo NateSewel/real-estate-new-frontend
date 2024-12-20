@@ -13,9 +13,9 @@ const SearchBar = ({ filter, setFilter }) => {
         type="text"
         value={filter}
         onChange={(e) => setFilter(e.target.value)}
-        className="text-gray-700"
+        className="justify-between items-center text-gray-700"
       />
-      <button className="button">Search</button>
+      <button className="button align-center justify-center">Search</button>
     </div>
   );
 };
