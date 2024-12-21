@@ -7,7 +7,7 @@ const Contact = () => {
     <div id="contact-us" className="c-wrapper">
       <div className="paddings innerWidth flexCenter c-container">
         {/* left side */}
-        <div className="flexColStart c-left">
+        <div className="flexColStart c-right">
           <span className="orangeText">Reach Out To Us</span>
           <span className="primaryText">Let Us make Your Dream a Reality</span>
           <span className="secondaryText">
@@ -15,7 +15,7 @@ const Contact = () => {
             place to live can make your life better.
           </span>
 
-          <div className="flex flex-row gap-2 contactModes">
+          <div className="contactModes">
             {/* first row */}
             <div className="flexStart row">
               <div className="flexColCenter mode">

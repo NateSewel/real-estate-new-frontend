@@ -31,11 +31,14 @@ const Header = () => {
   //   };
 
   return (
-    <header className="bg-dark-background text-white sticky top-0 flex-wrap z-[20] mx-auto flex w-full items-center justify-between border-gray-500 p-8">
-      {/* Logo component */}
-      <Logo />
-      <Nav />
-    </header>
+    <div className="h-wrapper">
+      <header className="bg-dark-background text-white sticky top-0 flex-wrap z-[20] mx-auto flex w-full items-center justify-between border-gray-500 p-8 h-container">
+        {/* Logo component */}
+        <Logo />
+        <Nav />
+      </header>
+    </div>
+
     // <section className="h-wrapper" style={{ background: headerColor }}>
     //   <div className="flexCenter paddings innerWidth h-container">
     //     {/* Logo */}

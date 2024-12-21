@@ -25,7 +25,7 @@ const Hero = () => {
       animate="animate"
       exit="exit"
     >
-      <div className=" innerWidth flex flex-wrap justify-between hero-container">
+      <div className="innerWidth flex flex-wrap justify-between hero-container">
         {/* Left Side */}
         <div className="p-5 m-5 flexColStart hero-left">
           <div className="hero-title">
@@ -50,7 +50,7 @@ const Hero = () => {
             </span>
           </div>
           {/* SearchBar */}
-          <SearchBar className="" />
+          <SearchBar className="search-bar" />
 
           {/* Counter */}
           <div className="flexCenter stats">
@@ -81,7 +81,7 @@ const Hero = () => {
           </div>
         </div>
         {/* Right Side */}
-        <div className="paddings pb-20 pr-5 items-center flexCenter hero-right">
+        <div className="paddings pb-20 pr-5 hero-right">
           <motion.div
             initial={{
               x: "7rem",

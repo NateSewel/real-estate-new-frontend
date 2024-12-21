@@ -15,7 +15,7 @@ import "../App.css";
 const Website = () => {
   return (
     <div className="App">
-      <div>
+      <div className="flex flex-col">
         <div className="white-gradient" />
         <Hero />
       </div>
