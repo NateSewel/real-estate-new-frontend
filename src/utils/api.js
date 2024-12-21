@@ -17,8 +17,7 @@ export const getAllProperties = async () => {
     }
     return response.data;
   } catch (error) {
-    toast.error("");
-    throw error;
+    throw new error();
   }
 };
 
@@ -32,8 +31,7 @@ export const getProperty = async (id) => {
     }
     return response.data;
   } catch (error) {
-    toast.error("Something went wrong");
-    throw error;
+    throw new error();
   }
 };
 
