@@ -35,9 +35,8 @@ const Residencies = () => {
     <section className="r-wrapper">
       <div className="paddings innerWidth r-container">
         <div className="r-head flexColStart ">
-          <span className="orangeText">
-            Profitable Airbnb Approved Properties
-          </span>
+          <span className="orangeText">Profitable Airbnb</span>
+          <span className="orangeText">Approved Properties</span>
           <span className="secondaryText">In Prime locations For Leasing</span>
         </div>
 
