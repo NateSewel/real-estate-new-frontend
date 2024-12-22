@@ -7,30 +7,31 @@ import Slider from "react-slick";
 const TestimonialData = [
   {
     id: 1,
-    name: "jourdanross",
-    text: "Desmond is very prompt with his communication and started sending me properties for reviews right away. If you're looking for someone to assist you with finding short term rentals, he's your guy! His email scripts are amazing and guaranteed to gain traction..",
-    img: "https://picsum.photos/id/237/536/354",
+    name: "jhunter85",
+    text: "Seller was very responsive and organized and delivered leads for my Airbnb business. Will definitely be using him again.",
+    img: "https://picsum.photos/id/1060/536/354?blur=2",
     delay: 0.2,
   },
   {
     id: 2,
-    name: "Airbnb arbitrage rentals",
-    text: "Successfully completed his mission of identifying suitable real estate properties for our business. His professionalism and thorough research provided excellent options for properties. Highly recommended for his expertise and reliability.",
-    img: "https://picsum.photos/536/354",
+    name: "Real Estate Wholesale",
+    text: "Desmond is one of the best freelancers i've worked with. He always gets the job done. He is honest and fast with his work",
+    img: "https://picsum.photos/id/32/367/267",
     delay: 0.5,
   },
+
   {
     id: 3,
-    name: "jhunter85",
-    text: "Seller was very responsive and organized and delivered leads for my Airbnb business. Will definitely be using him again.",
-    img: "https://picsum.photos/id/1060/536/354?blur=2",
+    name: "sierracymone",
+    text: "Desmond was excellent! he did more than I asked for in locating my short-term rental he was very responsive and great at communicating. I will use him again.",
+    img: "https://fastly.picsum.photos/id/58/1280/853.jpg?hmac=YO3QnOm9TpyM5DqsJjoM4CHg8oIq4cMWLpd9ALoP908",
     delay: 0.8,
   },
   {
     id: 4,
-    name: "Real Estate Wholesale",
-    text: "Desmond is one of the best freelancers i've worked with. He always gets the job done. He is honest and fast with his work",
-    img: "https://picsum.photos/id/32/367/267",
+    name: "jourdanross",
+    text: "Desmond is very prompt with his communication and started sending me properties for reviews right away. If you're looking for someone to assist you with finding short term rentals, he's your guy! His email scripts are amazing and guaranteed to gain traction..",
+    img: "https://picsum.photos/id/237/536/354",
     delay: 1.1,
   },
   {
@@ -49,9 +50,9 @@ const TestimonialData = [
   },
   {
     id: 7,
-    name: "sierracymone",
-    text: "Desmond was excellent! he did more than I asked for in locating my short-term rental he was very responsive and great at communicating. I will use him again.",
-    img: "https://fastly.picsum.photos/id/58/1280/853.jpg?hmac=YO3QnOm9TpyM5DqsJjoM4CHg8oIq4cMWLpd9ALoP908",
+    name: "Airbnb arbitrage rentals",
+    text: "Successfully completed his mission of identifying suitable real estate properties for our business. His professionalism and thorough research provided excellent options for properties. Highly recommended for his expertise and reliability.",
+    img: "https://picsum.photos/536/354",
     delay: 1.7,
   },
 ];
