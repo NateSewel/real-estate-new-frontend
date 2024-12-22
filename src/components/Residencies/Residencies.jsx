@@ -35,8 +35,10 @@ const Residencies = () => {
     <section className="r-wrapper">
       <div className="paddings innerWidth r-container">
         <div className="r-head flexColStart ">
-          <span className="orangeText">Best Choices</span>
-          <span className="primaryText">Recent Properties</span>
+          <span className="orangeText">
+            Profitable Airbnb Approved Properties
+          </span>
+          <span className="secondaryText">In Prime locations For Leasing</span>
         </div>
 
         <Swiper {...sliderSettings}>
