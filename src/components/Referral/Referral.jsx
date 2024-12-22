@@ -4,8 +4,11 @@ import starVectorIcon from "../../assets/start-vector.png";
 
 const Referral = () => {
   return (
-    <section className="bg-inherit my-5 py-24 innerWidth flexCenter" id="about">
-      <div className="max-w-screen-2xl mx-auto">
+    <section
+      className="mt-0 bg-inherit my-5 py-24 innerWidth flexCenter"
+      id="about"
+    >
+      <div className="max-w-screen-2xl mx-auto mt-0">
         {/* Main content */}
         <div className="flex flex-col lg:flex-row items-center justify-between py-12 px-4 lg:py-24 gap-10 lg:gap-20">
           {/* Left content */}
