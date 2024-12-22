@@ -1,6 +1,8 @@
 import "./Companies.css";
 import prologis from "../../../public/prologis.png";
 import tower from "../../../public/tower.png";
+import tower1 from "../../../public/tower1.png";
+import tower2 from "../../../public/tower2.png";
 import equinix from "../../../public/equinix.png";
 import realty from "../../../public/realty.png";
 
@@ -39,6 +41,16 @@ const Companies = () => {
               alt="company logo"
               className="logo-ticker-image"
             />
+            <img
+              src={tower1}
+              alt="company logo"
+              className="logo-ticker-image"
+            />
+            <img
+              src={tower2}
+              alt="company logo"
+              className="logo-ticker-image"
+            />
 
             {/* Second set of logo for animation */}
             <img
@@ -54,6 +66,16 @@ const Companies = () => {
             />
             <img
               src={realty}
+              alt="company logo"
+              className="logo-ticker-image"
+            />
+            <img
+              src={tower1}
+              alt="company logo"
+              className="logo-ticker-image"
+            />
+            <img
+              src={tower2}
               alt="company logo"
               className="logo-ticker-image"
             />
