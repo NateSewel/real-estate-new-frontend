@@ -7,8 +7,9 @@ const Footer = () => {
         <div className="flexColStart f-left">
           <img src="./LogoNew.png" alt="" width={100} />
           <span className="secondaryText">
-            Our vision is to provide <br />
-            the best residencies to all of our clients.
+            Our mission is to connect clients <br />
+            with profitable Airbnb-allowed properties anywhere in the USA
+            swiftly.
           </span>
         </div>
 

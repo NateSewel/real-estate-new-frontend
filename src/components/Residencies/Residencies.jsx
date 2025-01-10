@@ -37,7 +37,9 @@ const Residencies = () => {
         <div className="r-head flexColStart ">
           <span className="orangeText">Profitable Airbnb</span>
           <span className="orangeText">Approved Properties</span>
-          <span className="secondaryText">In Prime locations For Leasing</span>
+          <span className="secondaryText">
+            In Prime locations <br /> ready for Leasing
+          </span>
         </div>
 
         <Swiper {...sliderSettings}>

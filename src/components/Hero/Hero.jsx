@@ -31,22 +31,24 @@ const Hero = () => {
           <div className="hero-title">
             <div className="orange-circle" />
             <motion.h1 variants={letter}>
-              Discover <br /> Most Suitable <br /> Airbnb <br /> Properties
+              Find Profitable
+              <br /> Airbnb Arbitrage
               <br />
+              Properties
+              <br /> stress-free
+              <br />
+              across the USA!
             </motion.h1>
           </div>
           <div className="items-center flexColStart hero-des">
             <span className="secondaryText">
-              We help you uncover profitable opportunities by sourcing the ideal
-              properties for you.
+              We Source Profitable Properties for Airbnb Arbitrage.
             </span>
             <span className="secondaryText">
-              Analyze market trends, evaluate property potential saving you time
-              and effort.
+              Analyze Market Trends, and Handle Negotiations to Save You Time.
             </span>
-            <span className="secondaryText">
-              Provide consultation services to simplify the acquisition
-              processes.
+            <span className="text-lg text-orange-300">
+              Refer A Friend and Earn 30% Commission.
             </span>
           </div>
           {/* SearchBar */}
@@ -56,27 +58,36 @@ const Hero = () => {
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={8800} end={9000} duration={4} />
+                $
+                <CountUp start={1800} end={2000} duration={4} />
                 <span>+</span>
               </span>
 
-              <span className="secondaryText">Premium Products</span>
+              <span className="secondaryText">
+                Profits per Short-term <br />
+                rental Each Month
+              </span>
             </div>
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={1950} end={2000} duration={4} />
+                <CountUp start={35} end={45} duration={4} />
                 <span>+</span>
               </span>
 
-              <span className="secondaryText">Happy Customers</span>
+              <span className="secondaryText">
+                Property located <br /> Each week
+              </span>
             </div>
             <div className="flexColCenter stat">
               <span>
-                <CountUp end={28} />
+                <CountUp start={5} />
                 <span>+</span>
               </span>
 
-              <span className="secondaryText">Award Winning</span>
+              <span className="secondaryText">
+                Years of industrial <br />
+                experience
+              </span>
             </div>
           </div>
         </div>

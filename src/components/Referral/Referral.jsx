@@ -105,6 +105,19 @@ const Referral = () => {
                 <div className="border-t-2 lg:my-3"></div>
               </div>
             </div>
+            {/* Service 5 */}
+            <div className="flex items-start space-x-4 lg:mb-6">
+              <h3 className="lg:text-3x1 font-bold text-gray-800">06.</h3>
+              <div>
+                <h4 className="lg:text-lg font-bold text-[#0F0E0E]">
+                  Our Referral Package
+                </h4>
+                <p className="text-sm text-[#2D2D2D] lg:my-2 md:w-3/5">
+                  Refer a friend and earn 30% commission.
+                </p>
+                <div className="border-t-2 lg:my-3"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
