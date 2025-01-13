@@ -31,10 +31,10 @@ const Hero = () => {
           <div className="hero-title">
             <div className="orange-circle" />
             <motion.h1 variants={letter}>
-              Find Profitable
-              <br /> Airbnb Arbitrage
+              Find profitable
+              <br /> Airbnb arbitrage
               <br />
-              Properties
+              properties
               <br /> stress-free
               <br />
               across the USA!
@@ -42,13 +42,13 @@ const Hero = () => {
           </div>
           <div className="items-center flexColStart hero-des">
             <span className="secondaryText">
-              We Source Profitable Properties for Airbnb Arbitrage.
+              We source profitable properties for Airbnb arbitrage.
             </span>
             <span className="secondaryText">
-              Analyze Market Trends, and Handle Negotiations to Save You Time.
+              Analyze market trends, and handle negotiations to save you time.
             </span>
             <span className="text-lg text-orange-300">
-              Refer A Friend and Earn 30% Commission.
+              Refer a friend and earn 30% commission.
             </span>
           </div>
           {/* SearchBar */}
@@ -64,23 +64,23 @@ const Hero = () => {
               </span>
 
               <span className="secondaryText">
-                Profits per Short-term <br />
-                rental Each Month
+                Profits per short-term <br />
+                rental each month
               </span>
             </div>
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={35} end={45} duration={4} />
+                <CountUp start={15} end={20} duration={4} />
                 <span>+</span>
               </span>
 
               <span className="secondaryText">
-                Property located <br /> Each week
+                Property located <br /> each week
               </span>
             </div>
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={5} />
+                <CountUp start={3} />
                 <span>+</span>
               </span>
 

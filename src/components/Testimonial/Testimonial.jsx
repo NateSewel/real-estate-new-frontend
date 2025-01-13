@@ -100,9 +100,9 @@ const Testimonial = () => {
       <div className="container">
         {/* Header section */}
         <div className="space-y-4 p-6 text-center max-w-[600px] mx-auto mb-6">
-          <h1 className="uppercase font-semibold text-orange-400">
-            OUR TESTIMONIAL
-          </h1>
+          <h2 className="lg:text-4xl font-semibold text-gray-800">
+            <span className="text-orange-400">Our testimonials</span>
+          </h2>
           <p className="font-semibold text-3xl">
             Upwork And Fiverr Reviews Reflect Our Clients' Satisfaction
           </p>

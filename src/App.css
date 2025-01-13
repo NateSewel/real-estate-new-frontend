@@ -1,7 +1,11 @@
 .App {
   position: relative;
-  overflow-x: clip;
+  overflow-x: hidden;
   background-color: white;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .App > :nth-child(1) {
@@ -18,6 +22,12 @@
   filter: blur(100px);
   border-radius: 100px;
 }
+
+/* @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
 
 /* #root {
   max-width: 1280px;

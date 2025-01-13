@@ -33,17 +33,17 @@ const Property = () => {
     setUserDetails,
   } = useContext(UserDetailContext);
 
-  const { mutate: cancelBooking, isLoading: cancelling } = useMutation({
-    mutationFn: () => removeBooking(id, user?.email, token),
-    onSuccess: () => {
-      setUserDetails((prev) => ({
-        ...prev,
-        bookings: prev.bookings.filter((booking) => booking?.id !== id),
-      }));
+  // const { mutate: cancelBooking, isLoading: cancelling } = useMutation({
+  //   mutationFn: () => removeBooking(id, user?.email, token),
+  //   onSuccess: () => {
+  //     setUserDetails((prev) => ({
+  //       ...prev,
+  //       bookings: prev.bookings.filter((booking) => booking?.id !== id),
+  //     }));
 
-      toast.success("Booking cancelled", { position: "bottom-right" });
-    },
-  });
+  //     toast.success("Booking cancelled", { position: "bottom-right" });
+  //   },
+  // });
 
   if (isLoading) {
     return (
@@ -119,7 +119,7 @@ const Property = () => {
             </div>
 
             {/* Booking Button */}
-            {bookings?.map((booking) => booking.id).includes(id) ? (
+            {/* {bookings?.map((booking) => booking.id).includes(id) ? (
               <>
                 <MantineProvider>
                   <Button
@@ -146,7 +146,7 @@ const Property = () => {
               >
                 Book your visit
               </button>
-            )}
+            )} */}
 
             <BookingModal
               opened={modalOpened}
