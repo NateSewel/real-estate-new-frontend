@@ -8,8 +8,8 @@ const Contact = () => {
       <div className="paddings innerWidth flexCenter c-container">
         {/* left side */}
         <div className="flexColStart c-right">
-          <span className="orangeText">Reach Out To Us</span>
-          <span className="primaryText">Let Us make Your Dream a Reality</span>
+          <span className="orangeText">Reach out to us</span>
+          <span className="primaryText">Let us make your dream a reality</span>
           <span className="secondaryText">
             We are ready to provide the best services for you. We believe a good
             place to live can make your life better.

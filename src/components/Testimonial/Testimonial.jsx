@@ -104,7 +104,7 @@ const Testimonial = () => {
             <span className="text-orange-400">Our testimonials</span>
           </h2>
           <p className="font-semibold text-3xl">
-            Upwork And Fiverr Reviews Reflect Our Clients' Satisfaction
+            Upwork and fiverr reviews reflect our clients' satisfaction
           </p>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
             The reviews below showcases our satisfied clients sharing their

@@ -13,10 +13,10 @@ const Team = () => {
         <div className="bg-gray-100 w-full">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-800">
-              Our <span className="text-orange-400">Team</span>
+              Our <span className="text-orange-400">team</span>
             </h2>
             <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-              Meet the Exceptional Minds Behind Our Organization.
+              Meet the exceptional minds behind our organization.
             </p>
           </div>
           <div className="container mx-auto grid gap-6 w-full px-10 pt-10 md:grid-cols-2 lg:grid-cols-3">
