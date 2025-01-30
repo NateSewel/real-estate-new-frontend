@@ -24,7 +24,7 @@ const Map = ({ address, city, country }) => {
 };
 
 Map.propTypes = {
-  address: PropTypes.string.isRequired,
+  address: PropTypes.string,
   city: PropTypes.string.isRequired,
   country: PropTypes.string.isRequired,
 };

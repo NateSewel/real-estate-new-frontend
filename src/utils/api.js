@@ -169,7 +169,6 @@ export const createResidency = async (data, token) => {
     );
     return res.data["Residency"];
   } catch (error) {
-    toast.error("Creating residence");
-    throw error;
+    throw new error();
   }
 };
