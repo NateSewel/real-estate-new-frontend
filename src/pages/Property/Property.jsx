@@ -59,7 +59,7 @@ const Property = () => {
     return (
       <div className="wrapper">
         <div className="flexCenter paddings">
-          <span>Error while fetching the property details</span>
+          <span>Can't fetch property details</span>
         </div>
       </div>
     );
@@ -112,9 +112,9 @@ const Property = () => {
             <div className="flexStart" style={{ gap: "1rem" }}>
               <MdLocationPin size={25} />
               <span className="secondaryText">
-                {data?.address} {""}
-                {data?.city} {""}
-                {data?.country} {""}
+                {data?.address}
+                {data?.city}
+                {data?.country}
               </span>
             </div>
 
