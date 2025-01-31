@@ -19,7 +19,7 @@ const AddLocation = ({ propertyDetails, setPropertyDetails, nextStep }) => {
     validate: {
       country: (value) => validateString(value),
       city: (value) => validateString(value),
-      // address: (value) => validateString(value),
+      address: (value) => validateString(value),
     },
   });
 
