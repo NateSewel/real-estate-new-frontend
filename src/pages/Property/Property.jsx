@@ -1,7 +1,7 @@
 import { useMutation, useQuery } from "react-query";
 import "./Property.css";
 import { useLocation } from "react-router-dom";
-import { getProperty, removeBooking } from "../../utils/api";
+// import { getProperty, removeBooking } from "../../utils/api";
 import { PuffLoader } from "react-spinners";
 import { MdLocationPin, MdMeetingRoom } from "react-icons/md";
 import { FaShower } from "react-icons/fa";
@@ -59,7 +59,7 @@ const Property = () => {
     return (
       <div className="wrapper">
         <div className="flexCenter paddings">
-          <span>Can't fetch property details</span>
+          <span>Cannot fetch property details</span>
         </div>
       </div>
     );

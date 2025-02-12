@@ -20,8 +20,8 @@ const AddPropertyModal = ({ opened, setOpened }) => {
     address: "",
     facilities: {
       bedrooms: 0,
-      parkings: 0,
       bathroom: 0,
+      parkings: 0,
     },
     userEmail: user?.email,
   });
